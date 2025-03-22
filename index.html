@@ -1664,6 +1664,11 @@
             checkAllResourcesLoaded();
         });
     </script>
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+	});
+  </script>
 </head>
 <body>
     <div id="pageLoader" class="page-loader">
